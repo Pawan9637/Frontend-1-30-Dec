@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar {
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* background-image: url("https://media.istockphoto.com/id/1345971391/photo/young-indian-girl-holding-diwali-oil-lamp.jpg?b=1&s=170667a&w=0&k=20&c=fFeLSLFggSKCm8DEpfzFM9YCvTLWYKUKBHkh4FsvSl4="); */
+    /* background-color: black; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1728px;
+    height: 87px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 10px;
+    /* align-content: flex-end; */
+    /* position: fixed; */
+    /* top: 0px; */
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    /* margin-left: 17px; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    /* margin-left: 30px; */
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transition: .4s;
+}
+
+
+
+.logo {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* ----Home Section--- */
+section {
+    /* width: 100%;
+    height: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+*/
+
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 87px;
+
+    background: #000000;
+}
+
+.heading {
+    position: absolute;
+    width: 1050px;
+    height: 745px;
+    left: 96px;
+    top: 229px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 242px;
+
+    color: #FFFFFF;
+}
+
+.fade-in-text:hover{
+    animation: fadeIn 2s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.home img {
+    position: absolute;
+    width: 734px;
+    height: 395px;
+    left: 994px;
+    top: 602px;
+}
+
+.home .arrow {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 59px;
+    height: 0px;
+    left: 864px;
+    top: 997px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 180px;
+    transform: rotate(90deg);
+}
+
+.about-us h1 {
+
+    position: absolute;
+    width: 912px;
+    height: 225px;
+    left: 747px;
+    top: 1352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #000000;
+
+}
+
+.about-us p {
+
+    position: absolute;
+    width: 912px;
+    height: 546px;
+    left: 747px;
+    top: 1525px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.about-us img {
+
+    position: absolute;
+    width: 572px;
+    height: 726px;
+    left: 89px;
+    top: 1353px;
+}
+
+/* -----Cards------- */
+
+
+
+.our-services h1 {
+    position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 82px;
+    top: 2251px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #000000;
+
+}
+
+
+.our-services .card h3 {
+
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 126px;
+    top: 2509px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+
+}
+
+
+.our-services .card .pra p {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 126px;
+    top: 2602px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.our-services .card1 h3 {
+
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 791px;
+    top: 2509px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+
+}
+
+.our-services .card2 h3 {
+    position: absolute;
+    width: 253px;
+    height: 78px;
+    left: 1456px;
+    top: 2509px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #000000;
+}
+
+.our-services .card1 .pra1 p {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 791px;
+    top: 2602px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+
+}
+
+.our-services .card2 .pra2 p {
+    position: absolute;
+    width: 510px;
+    height: 254px;
+    left: 1456px;
+    top: 2602px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+/* ----Contact-Us Section--- */
+/* .contact-us {
+    position: absolute;
+    width: 1728px;
+    height: 1030px;
+    left: 0px;
+    top: 3213px;
+
+    background: #000000;
+} */
+
+.contact-us h5{
+    position: absolute;
+width: 692.27px;
+height: 144px;
+left: 518px;
+top: 3314px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 100px;
+line-height: 121px;
+
+/* color: #FFFFFF; */
+color: #000000;
+
+}
+
+
+input::placeholder {
+    font-weight: bold;
+    color:black;
+}
+
+
+.fname{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1372px;
+height: 72px;
+left: 146px;
+top: 3515px;
+
+/* border: 1px solid #FFFFFF; */
+border: 1px solid black;
+
+}
+
+.lname{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 1372px;
+height: 72px;
+left: 146px;
+top: 3622px;
+
+/* border: 1px solid #FFFFFF; */
+border: 1px solid black;
+}
+
+#email{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 3728px;
+    
+    /* border: 1px solid #FFFFFF; */
+    border: 1px solid black;
+}
+
+.reasone{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 146px;
+    top: 3834px;
+    
+    /* border: 1px solid #FFFFFF; */
+    border: 1px solid black;
+}
+
+.btn{
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 146px;
+    top: 3941px;
+    
+    background: #FFFFFF;
+}
+
+/* footer{
+    position: absolute;
+width: 1728px;
+height: 1030px;
+left: 0px;
+top: 3213px;
+
+background: #000000;
+} */
